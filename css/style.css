@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff2') format('woff2'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Vazir';
+    text-align: center;
+    font-family: Vazir;
+    background-color: #252a36 ;
+
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder{
+    color: #424343;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    color: #1a2333 !important;
+}
+
+.link-nav{
+    display: flex;
+list-style-type: none;
+justify-content: space-evenly;
+text-decoration: none;
+}
+.link1 a, .link2 a{
+    text-decoration: none;
+}
+.components{
+    display: grid !important;
+    grid-template-columns: 45% 45%;
+    
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.component{
+    display: grid;
+    grid-template-columns: 34% 59% 8%;
+    justify-items: center;
+}
+.img{
+    border-radius: 100%;
+    width: 160px;
+}
+
+.Toastify__toast-body{
+    font-family: vazir !important;
+}
+
+
+.navbar_container{
+    display: grid;
+    grid-template-columns: 28% 43%;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: start;
+    width: 100%;
+}
+
+@media screen and (max-width:999px){
+    .navbar_container{
+        display:block !important;
+    }
+    .components{
+        display: block !important;     
+    }
+}
