@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_URL = "https://mojtaba-python.github.io/contacts-manager-app/server/db.json";
+const SERVER_URL = "https://mojtaba-python.github.io/contacts-manager-app/server";
 
 // @desc Get All Contacts
 // @route GET https://localhost:9000/contacts
